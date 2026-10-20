@@ -1,0 +1,124 @@
+{
+  "start": "2011-01-03",
+  "end": "2025-12-31",
+  "sessions": 3772,
+  "rebalance_sessions": 783,
+  "active_asset_orders": 2602,
+  "gross_annual_arithmetic_rate": 0.1055213949059749,
+  "annual_one_way_turnover": 16.520904424453647,
+  "linear_cost_annual_rate": 0.008260452212226824,
+  "base_eta": 0.5,
+  "adv_budget": 0.1,
+  "participation_threshold_usd": 43293763.63133148,
+  "bottleneck": {
+    "date": "2015-06-15",
+    "symbol": "XLB",
+    "trade_weight": 0.33239787285949857,
+    "lagged_adv_usd": 143907549.39136505
+  },
+  "budget_sensitivity": [
+    {
+      "adv_budget": 0.05,
+      "capital_threshold_usd": 21646881.81566574,
+      "bottleneck": {
+        "date": "2015-06-15",
+        "symbol": "XLB",
+        "trade_weight": 0.33239787285949857,
+        "lagged_adv_usd": 143907549.39136505
+      }
+    },
+    {
+      "adv_budget": 0.1,
+      "capital_threshold_usd": 43293763.63133148,
+      "bottleneck": {
+        "date": "2015-06-15",
+        "symbol": "XLB",
+        "trade_weight": 0.33239787285949857,
+        "lagged_adv_usd": 143907549.39136505
+      }
+    },
+    {
+      "adv_budget": 0.2,
+      "capital_threshold_usd": 86587527.26266296,
+      "bottleneck": {
+        "date": "2015-06-15",
+        "symbol": "XLB",
+        "trade_weight": 0.33239787285949857,
+        "lagged_adv_usd": 143907549.39136505
+      }
+    }
+  ],
+  "capital_cases": [
+    {
+      "capital_usd": 1000000.0,
+      "eta": 0.5,
+      "gross_annual_rate": 0.1055213949059749,
+      "linear_cost_annual_rate": 0.008260452212226826,
+      "impact_cost_annual_rate": 0.0018102996712469354,
+      "net_annual_rate": 0.09545064302250113,
+      "annual_dollar_pnl": 95450.64302250113,
+      "max_adv_fraction": 0.0023098014959279374,
+      "p95_active_order_adv_fraction": 0.0011136473275669939,
+      "orders_over_budget": 0,
+      "fits_participation_budget": true
+    },
+    {
+      "capital_usd": 10000000.0,
+      "eta": 0.5,
+      "gross_annual_rate": 0.1055213949059749,
+      "linear_cost_annual_rate": 0.008260452212226826,
+      "impact_cost_annual_rate": 0.0057246702085943435,
+      "net_annual_rate": 0.09153627248515372,
+      "annual_dollar_pnl": 915362.7248515373,
+      "max_adv_fraction": 0.023098014959279378,
+      "p95_active_order_adv_fraction": 0.011136473275669936,
+      "orders_over_budget": 0,
+      "fits_participation_budget": true
+    },
+    {
+      "capital_usd": 100000000.0,
+      "eta": 0.5,
+      "gross_annual_rate": 0.1055213949059749,
+      "linear_cost_annual_rate": 0.008260452212226826,
+      "impact_cost_annual_rate": 0.018102996712469354,
+      "net_annual_rate": 0.0791579459812787,
+      "annual_dollar_pnl": 7915794.598127871,
+      "max_adv_fraction": 0.23098014959279375,
+      "p95_active_order_adv_fraction": 0.11136473275669938,
+      "orders_over_budget": 154,
+      "fits_participation_budget": false
+    },
+    {
+      "capital_usd": 1000000000.0,
+      "eta": 0.5,
+      "gross_annual_rate": 0.1055213949059749,
+      "linear_cost_annual_rate": 0.008260452212226826,
+      "impact_cost_annual_rate": 0.05724670208594345,
+      "net_annual_rate": 0.040014240607804605,
+      "annual_dollar_pnl": 40014240.607804604,
+      "max_adv_fraction": 2.3098014959279376,
+      "p95_active_order_adv_fraction": 1.1136473275669938,
+      "orders_over_budget": 723,
+      "fits_participation_budget": false
+    },
+    {
+      "capital_usd": 10000000000.0,
+      "eta": 0.5,
+      "gross_annual_rate": 0.1055213949059749,
+      "linear_cost_annual_rate": 0.008260452212226826,
+      "impact_cost_annual_rate": 0.18102996712469355,
+      "net_annual_rate": -0.08376902443094546,
+      "annual_dollar_pnl": -837690244.3094546,
+      "max_adv_fraction": 23.098014959279375,
+      "p95_active_order_adv_fraction": 11.136473275669937,
+      "orders_over_budget": 885,
+      "fits_participation_budget": false
+    }
+  ],
+  "uncapped_model_zero_return_capital_usd": 2886529525.5370307,
+  "uncapped_model_dollar_pnl_peak_capital_usd": 1282902011.3497915,
+  "uncapped_peak_fits_budget": false,
+  "interpretation": "Reference-AUM cost sensitivity, arithmetic annualization, not CAGR or a compounded wealth simulation. All curves assume full reference-price rebalances. Points above the participation budget are infeasible extrapolations, not investable outcomes.",
+  "limitations": "Historical reference portfolio, current reconstructed adjusted prices, modeled spreads/fees/impact, daily volume proxies. ETF creation/redemption, underlying basket liquidity, execution duration, intraday conditions, taxes, funding and changing future alpha are excluded. Participation and cost assumptions do not establish a live allocation recommendation.",
+  "protocol_sha256": "a8ed65a62e0e00063bd8e38d1c3c2e1f21712d24e433d09bf8861f07e54b3187"
+}

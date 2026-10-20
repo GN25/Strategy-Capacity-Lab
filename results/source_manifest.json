@@ -1,0 +1,105 @@
+{
+  "retrieved_at_utc": "2026-10-20T12:55:06.312842+00:00",
+  "source": "Yahoo Finance daily chart data",
+  "series": [
+    {
+      "symbol": "XLB",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/XLB",
+      "parameters": {
+        "period1": 1262304000,
+        "period2": 1767225600,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "sha256": "628b2631a0e03fb6af021cecd752af4d29c9cbe239e3de8e1612ce0caed0bf2e"
+    },
+    {
+      "symbol": "XLE",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/XLE",
+      "parameters": {
+        "period1": 1262304000,
+        "period2": 1767225600,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "sha256": "f4c9da45b7afd53a8f3f346e8a9b2094419819ef09b07559b2bf04c31ccca7fd"
+    },
+    {
+      "symbol": "XLF",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/XLF",
+      "parameters": {
+        "period1": 1262304000,
+        "period2": 1767225600,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "sha256": "d44bb9e269d2d0a33e83e3cba778dcbbb4a434102e2aa033643eae2752c2d4ab"
+    },
+    {
+      "symbol": "XLI",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/XLI",
+      "parameters": {
+        "period1": 1262304000,
+        "period2": 1767225600,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "sha256": "bb85880eaa31379fab33da84c26372c3d86f39f8849bc827aec6b41328f8ddcb"
+    },
+    {
+      "symbol": "XLK",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/XLK",
+      "parameters": {
+        "period1": 1262304000,
+        "period2": 1767225600,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "sha256": "abc9b519aabc7d26501062117b7b4bcf5d1ade13cdc0b9ef8523488cf9ccdfdf"
+    },
+    {
+      "symbol": "XLP",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/XLP",
+      "parameters": {
+        "period1": 1262304000,
+        "period2": 1767225600,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "sha256": "6de72e993c69dc1254c651a28164b2374dcd4c0780b52cc1c4c7284e20de0e3b"
+    },
+    {
+      "symbol": "XLU",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/XLU",
+      "parameters": {
+        "period1": 1262304000,
+        "period2": 1767225600,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "sha256": "99ef7a31a84e42de69018b4c28c32bb2daab1c9bb872441e96fe44dc71b0ff80"
+    },
+    {
+      "symbol": "XLV",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/XLV",
+      "parameters": {
+        "period1": 1262304000,
+        "period2": 1767225600,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "sha256": "7fdb72c176001ff28d27661c91f8684fa233c98ac09922600a235f858daff28b"
+    },
+    {
+      "symbol": "XLY",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/XLY",
+      "parameters": {
+        "period1": 1262304000,
+        "period2": 1767225600,
+        "interval": "1d",
+        "events": "div,splits"
+      },
+      "sha256": "77891f2b1c419abf95ec947514015d07c63cf0e516231aad390605f918083590"
+    }
+  ]
+}
